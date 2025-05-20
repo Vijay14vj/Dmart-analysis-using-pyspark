@@ -55,14 +55,16 @@ This project aims to analyze Dmart sales data using PySpark. The pipeline integr
    ```
 
 ## Project Structure
-```
-📂 Dmart-PySpark-Analysis
-├── 📂 data                  # Dataset files
-├── 📂 scripts               # PySpark scripts for ETL and analysis
-├── 📜 README.md             # Project documentation
-├── 📜 requirements.txt      # Dependencies list
-├── 📜 dmart_analysis.py     # Main script
-```
+
+dmart_analysis/
+│
+├── main.py
+├── spark_init.py
+├── data_loader.py
+├── schema_cleaner.py
+├── data_joiner.py
+└── analytics.py
+
 
 ## Best Practices
 - **Follow [PEP 8](https://www.python.org/dev/peps/pep-0008/) coding standards.**
@@ -73,4 +75,5 @@ This project aims to analyze Dmart sales data using PySpark. The pipeline integr
 This project provides valuable insights into Dmart sales trends using PySpark, showcasing the power of big data processing.
 
 ## Author
+Vijay
 Vijay M
