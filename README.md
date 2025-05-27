@@ -75,5 +75,4 @@ dmart_analysis/
 This project provides valuable insights into Dmart sales trends using PySpark, showcasing the power of big data processing.
 
 ## Author
-Vijay
 Vijay M
